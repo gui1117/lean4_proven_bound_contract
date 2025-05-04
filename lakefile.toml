@@ -1,0 +1,10 @@
+name = "ProvenBoundContract"
+version = "0.1.0"
+defaultTargets = ["provenboundcontract"]
+
+[[lean_lib]]
+name = "ProvenBoundContract"
+
+[[lean_exe]]
+name = "provenboundcontract"
+root = "Main"
